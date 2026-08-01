@@ -62,7 +62,7 @@ Discover the authentic taste of Morocco through our selection of handcrafted bre
 
   <article class="product-card">
     <img
-      src="{{ '/images/products/pastillas.jpeg' | relative_url }}"
+      src="{{ '/images/products/pastilla.JPG' | relative_url }}"
       alt="Handcrafted Moroccan Pastilla"
       loading="lazy">
 
