@@ -7,22 +7,24 @@
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: Georgia, "Times New Roman", serif;
     line-height: 1.7;
     color: #333;
-    background-image: url('../../images/storefrontimage.png');
+
+    background-image: url("../../images/storefrontimage.png");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #faf6f1; /* Fallback color */
-    /* Overlay for readability */
+    background-color: #faf6f1;
+}
+
 main {
     background-color: rgba(255, 255, 255, 0.85);
     padding: 40px;
     border-radius: 8px;
     margin: 20px auto;
     max-width: 800px;
-
 }
 
 .container {
