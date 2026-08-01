@@ -1,0 +1,27 @@
+title: Fez & Flavores Blog
+description: Where flavor meets tradition – recipes, stories, and food culture from Fez
+baseurl: ""
+url: "https://www.fezflavores.com"  # Your custom domain with www
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /posts/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
