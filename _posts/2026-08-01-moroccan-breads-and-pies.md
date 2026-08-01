@@ -13,7 +13,7 @@ Discover the authentic taste of Morocco through our selection of handcrafted bre
 
   <article class="product-card">
     <img
-      src="{{ '/images/products/batbot.webp' | relative_url }}"
+      src="{{ '/images/products/batbot.jpeg' | relative_url }}"
       alt="Fresh Moroccan Batbot bread from Fez & Flavores"
       loading="lazy">
 
@@ -30,7 +30,7 @@ Discover the authentic taste of Morocco through our selection of handcrafted bre
 
   <article class="product-card">
     <img
-      src="{{ '/images/products/harcha.webp' | relative_url }}"
+      src="{{ '/images/products/harcha.jpeg' | relative_url }}"
       alt="Traditional Moroccan Harcha"
       loading="lazy">
 
@@ -46,7 +46,7 @@ Discover the authentic taste of Morocco through our selection of handcrafted bre
 
   <article class="product-card">
     <img
-      src="{{ '/images/products/msamen.webp' | relative_url }}"
+      src="{{ '/images/products/msamen.jpeg' | relative_url }}"
       alt="Traditional layered Moroccan Msamen"
       loading="lazy">
 
@@ -62,7 +62,7 @@ Discover the authentic taste of Morocco through our selection of handcrafted bre
 
   <article class="product-card">
     <img
-      src="{{ '/images/products/pastillas.webp' | relative_url }}"
+      src="{{ '/images/products/pastillas.jpeg' | relative_url }}"
       alt="Handcrafted Moroccan Pastilla"
       loading="lazy">
 
@@ -82,7 +82,7 @@ Discover the authentic taste of Morocco through our selection of handcrafted bre
 
   <article class="product-card">
     <img
-      src="{{ '/images/products/malwi.webp' | relative_url }}"
+      src="{{ '/images/products/malwi.jpeg' | relative_url }}"
       alt="Traditional rolled Moroccan Malwi"
       loading="lazy">
 
