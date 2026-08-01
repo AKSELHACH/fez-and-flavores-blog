@@ -30,7 +30,7 @@ Discover the authentic taste of Morocco through our selection of handcrafted bre
 
   <article class="product-card">
     <img
-      src="{{ '/images/products/harcha.jpeg' | relative_url }}"
+      src="{{ '/images/products/HARCHA.jpeg' | relative_url }}"
       alt="Traditional Moroccan Harcha"
       loading="lazy">
 
@@ -46,7 +46,7 @@ Discover the authentic taste of Morocco through our selection of handcrafted bre
 
   <article class="product-card">
     <img
-      src="{{ '/images/products/msamen.jpeg' | relative_url }}"
+      src="{{ '/images/products/MSAMEN.jpeg' | relative_url }}"
       alt="Traditional layered Moroccan Msamen"
       loading="lazy">
 
