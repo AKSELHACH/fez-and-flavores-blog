@@ -3,18 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+
+    <title>
+        {% if page.title %}
+            {{ page.title }} |
+        {% endif %}
+        {{ site.title }}
+    </title>
+
     <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+
+    <link rel="stylesheet"
+          href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
+
 <body>
     <header>
         <div class="container">
-            <h1><a href="{{ site.baseurl }}/">🌿 Fez & Flavores</a></h1>
+            <h1>
+                <a href="{{ '/' | relative_url }}">
+                    🌿 Fez & Flavores
+                </a>
+            </h1>
+
             <p class="tagline">{{ site.description }}</p>
+
             <nav>
-                <a href="{{ site.baseurl }}/">Home</a>
-                <a href="https://instagram.com/Fez_Flavores">Instagram</a>
+                <a href="{{ '/' | relative_url }}">Home</a>
+
+                <a href="https://instagram.com/Fez_Flavores"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Instagram
+                </a>
             </nav>
         </div>
     </header>
@@ -27,8 +48,19 @@
 
     <footer>
         <div class="container">
-            <p>&copy; {{ site.time | date: "%Y" }} Fez & Flavores. All rights reserved.</p>
-            <p>Follow us on <a href="https://instagram.com/Fez_Flavores">Instagram @Fez_Flavores</a></p>
+            <p>
+                &copy; {{ site.time | date: "%Y" }}
+                Fez & Flavores. All rights reserved.
+            </p>
+
+            <p>
+                Follow us on
+                <a href="https://instagram.com/Fez_Flavores"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Instagram @Fez_Flavores
+                </a>
+            </p>
         </div>
     </footer>
 </body>
