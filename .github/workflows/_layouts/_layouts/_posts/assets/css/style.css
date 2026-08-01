@@ -15,6 +15,13 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-color: #faf6f1; /* Fallback color */
+    /* Overlay for readability */
+main {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
 
 }
 
