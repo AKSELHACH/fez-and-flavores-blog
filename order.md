@@ -41,15 +41,15 @@ Please include the following information in your message:
 
 ### 3. Send Your Request
 
-Contact Fez & Flavores through Instagram:
+Contact Fez & Flavores by email:
 
 <a
   class="order-button"
-  href="https://instagram.com/Fez_Flavores"
-  target="_blank"
-  rel="noopener noreferrer">
-  Order Through Instagram
+  href="mailto:fezflavores@gmail.com?subject=Fez%20%26%20Flavores%20Order%20Request">
+  Email Your Order Request
 </a>
+
+Email: [fezflavores@gmail.com](mailto:fezflavores@gmail.com)
 
 ### 4. Wait for Confirmation
 
@@ -158,13 +158,9 @@ The final confirmed price provided for your specific order will apply.
 ---
 
 ## Ready to Order?
-
 Send us your order details, preferred date, and any inspiration photographs.
-
 <a
   class="order-button"
-  href="https://instagram.com/Fez_Flavores"
-  target="_blank"
-  rel="noopener noreferrer">
-  Contact @Fez_Flavores
+  href="mailto:fezflavores@gmail.com?subject=Fez%20%26%20Flavores%20Order%20Request">
+  Contact Fez &amp; Flavores by Email
 </a>
