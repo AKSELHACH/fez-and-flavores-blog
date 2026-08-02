@@ -17,7 +17,132 @@ specialties.
 Our products are carefully prepared using quality ingredients and
 traditional Moroccan techniques. Advance ordering is recommended.
 
+<section class="moroccan-gallery-section">
 
+  <h2>Our Moroccan Collection</h2>
+
+  <p>
+    Explore our handcrafted Moroccan petite fours, sweets, filled dates,
+    Sellou, and preserved pantry specialties.
+  </p>
+
+  <div class="moroccan-product-gallery">
+
+    <figure>
+      <img
+        src="{{ '/images/products/amlou-delights.png' | relative_url }}"
+        alt="Amlou Delights from Fez and Flavores"
+        loading="lazy">
+      <figcaption>Amlou Delights</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="{{ '/images/products/chebakia.png' | relative_url }}"
+        alt="Traditional Moroccan Chebakia sweets"
+        loading="lazy">
+      <figcaption>Chebakia Sweets</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="{{ '/images/products/cornes-de-gazelle.png' | relative_url }}"
+        alt="Traditional Moroccan Cornes de Gazelle"
+        loading="lazy">
+      <figcaption>Cornes de Gazelle</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="{{ '/images/products/almond-briouats.png' | relative_url }}"
+        alt="Traditional Moroccan almond Briouats"
+        loading="lazy">
+      <figcaption>Almond Briouats</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="{{ '/images/products/assorted-petite-fours.png' | relative_url }}"
+        alt="Assorted Moroccan petite fours"
+        loading="lazy">
+      <figcaption>Assorted Petite Fours</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="{{ '/images/almond-ghriba.jpg' | relative_url }}"
+        alt="Traditional Moroccan almond Ghriba"
+        loading="lazy">
+      <figcaption>Almond Ghriba</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="{{ '/images/semolina-ghriba.jpg' | relative_url }}"
+        alt="Traditional Moroccan semolina Ghriba"
+        loading="lazy">
+      <figcaption>Semolina Ghriba</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="{{ '/images/ghmossa-dates.jpg' | relative_url }}"
+        alt="Moroccan Ghmossa dates"
+        loading="lazy">
+      <figcaption>Ghmossa Dates</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="{{ '/images/faqqass.jpg' | relative_url }}"
+        alt="Traditional Moroccan Faqqass"
+        loading="lazy">
+      <figcaption>Faqqass</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="{{ '/images/filled-dates.png' | relative_url }}"
+        alt="Moroccan filled dates"
+        loading="lazy">
+      <figcaption>Filled Dates</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="{{ '/images/sellou-sfouf.jpg' | relative_url }}"
+        alt="Traditional Moroccan Sellou also called Sfouf"
+        loading="lazy">
+      <figcaption>Sellou (Sfouf)</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="{{ '/images/hamd-msyar.jpeg' | relative_url }}"
+        alt="Traditional Moroccan preserved lemons Hamd Msyar"
+        loading="lazy">
+      <figcaption>Hamd Msyar</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="{{ '/images/smen-beldi.png' | relative_url }}"
+        alt="Traditional Moroccan preserved butter Smen Beldi"
+        loading="lazy">
+      <figcaption>Smen Beldi</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="{{ '/images/khlea3.png' | relative_url }}"
+        alt="Traditional Moroccan preserved meat Khlea"
+        loading="lazy">
+      <figcaption>Khlea</figcaption>
+    </figure>
+
+  </div>
+
+</section>
 <section class="pastry-price-menu">
 
   <h2>Moroccan Petite Fours &amp; Sweets</h2>
