@@ -49,7 +49,7 @@ Through **Moroccan Food Stories**, Fez & Flavores explores the traditions behind
 
 {% else %}
 
-<div class="coming-soon">
+<div class="coming-soon" markdown="1">
 
 ## Stories Are Coming Soon
 
