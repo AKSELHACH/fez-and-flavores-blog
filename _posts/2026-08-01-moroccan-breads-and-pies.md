@@ -3,6 +3,8 @@ layout: post
 title: "Moroccan Breads and Pies"
 date: 2026-08-01
 description: "Discover our handcrafted Moroccan breads and pies, prepared with authentic flavours and traditional techniques."
+categories:
+  - products
 ---
 
 # Moroccan Breads and Pies
