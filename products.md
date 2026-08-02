@@ -11,7 +11,7 @@ Welcome to the **Fez & Flavores** menu, where Moroccan tradition meets refined F
 
 Explore our freshly prepared breads, savoury specialties, cakes, pastries, and handcrafted desserts. Product availability and prices may vary according to size, ingredients, season, and customization.
 
-{% assign product_posts = site.categories.products %}
+{% assign product_posts = site.categories.products | sort: "menu_order" %}
 
 {% if product_posts %}
 
