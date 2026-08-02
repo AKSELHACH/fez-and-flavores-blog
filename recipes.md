@@ -49,7 +49,7 @@ Here you will discover authentic Moroccan recipes, French pastry techniques, hel
 
 {% else %}
 
-<div class="coming-soon">
+<div class="coming-soon" markdown="1">
 
 ## Recipes Are Coming Soon
 
