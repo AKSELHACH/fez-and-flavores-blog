@@ -134,85 +134,41 @@ Our pastries combine traditional French techniques, carefully selected ingredien
 
 </div>
 
-<section class="pastry-price-menu">
+<tr>
+  <td>Raspberry–Pistachio Tartlet</td>
+  <td>$5.60</td>
+</tr>
 
-  <h2>More French Pastries</h2>
+<tr>
+  <td>Apple, Caramel &amp; Pecan Tartlet</td>
+  <td>$5.60</td>
+</tr>
 
-  <p>
-    Explore more of our individual French pastries and tartlets.
-    Prices shown are per piece unless otherwise indicated.
-  </p>
+<tr>
+  <td>Crème Brûlée Tartlet</td>
+  <td>$5.60</td>
+</tr>
 
-  <div class="pastry-table-wrapper">
+<tr>
+  <td>Apricot, Almond &amp; Verbena Tartlet</td>
+  <td>$5.60</td>
+</tr>
 
-    <table class="pastry-menu-table">
+<tr>
+  <td>Dragon Fruit &amp; Raspberry Tartlet</td>
+  <td>$5.60</td>
+</tr>
 
-      <thead>
-        <tr>
-          <th scope="col">French Pastry</th>
-          <th scope="col">Price</th>
-        </tr>
-      </thead>
+<tr>
+  <td>Blackberry Tartlet</td>
+  <td>$5.60</td>
+</tr>
 
-      <tbody>
-
-        <tr>
-          <td>Mille-Feuille Slice</td>
-          <td>$8.00</td>
-        </tr>
-
-        <tr>
-          <td>Raspberry–Pistachio Tartlet</td>
-          <td>$4.90</td>
-        </tr>
-
-        <tr>
-          <td>Apple, Caramel &amp; Pecan Tartlet</td>
-          <td>$3.90</td>
-        </tr>
-
-        <tr>
-          <td>Crème Brûlée Tartlet</td>
-          <td>$4.50</td>
-        </tr>
-
-        <tr>
-          <td>Apricot, Almond &amp; Verbena Tartlet</td>
-          <td>$3.70</td>
-        </tr>
-
-        <tr>
-          <td>Dragon Fruit &amp; Raspberry Tartlet</td>
-          <td>$4.90</td>
-        </tr>
-
-        <tr>
-          <td>Blackberry Tartlet</td>
-          <td>$4.90</td>
-        </tr>
-
-        <tr>
-          <td>Lemon Cream Tartlet</td>
-          <td>$4.90</td>
-        </tr>
-
-        <tr>
-          <td>Fig Soufflé Muffin</td>
-          <td>$5.90</td>
-        </tr>
-
-        <tr>
-          <td>Milk Chocolate Éclair</td>
-          <td>$5.90</td>
-        </tr>
-
-      </tbody>
-
-    </table>
-
-  </div>
-
-</section>
+<tr>
+  <td>Lemon Cream Tartlet</td>
+  <td>$5.60</td>
+</tr>
+        
 <div class="order-section">
 
   <h2>Order French Pastries</h2>
