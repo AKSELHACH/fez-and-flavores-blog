@@ -20,13 +20,16 @@
 <body>
     <header>
         <div class="container">
-            <h1>
-                <a href="{{ '/' | relative_url }}">
-                    🌿 Fez & Flavores
-                </a>
-            </h1>
-
-            <p class="tagline">{{ site.description }}</p>
+            <div class="site-logo">
+    <a href="{{ '/' | relative_url }}"
+       aria-label="Fez and Flavores home">
+        <img
+            src="{{ '/images/fez-flavores-logo.jpg' | relative_url }}"
+            alt="Fez and Flavores — authentic artisanal products and Moroccan sweets"
+            width="1600"
+            height="1600">
+    </a>
+</div>
 
             <nav class="main-nav" aria-label="Main navigation">
     <a href="{{ '/' | relative_url }}">
