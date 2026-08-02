@@ -28,15 +28,39 @@
 
             <p class="tagline">{{ site.description }}</p>
 
-            <nav>
-                <a href="{{ '/' | relative_url }}">Home</a>
+            <nav class="main-nav" aria-label="Main navigation">
+    <a href="{{ '/' | relative_url }}">
+        Home
+    </a>
 
-                <a href="https://instagram.com/Fez_Flavores"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    Instagram
-                </a>
-            </nav>
+    <a href="{{ '/products/' | relative_url }}">
+        Products &amp; Menu
+    </a>
+
+    <a href="{{ '/recipes/' | relative_url }}">
+        Recipes
+    </a>
+
+    <a href="{{ '/moroccan-food-stories/' | relative_url }}">
+        Moroccan Food Stories
+    </a>
+
+    <a href="{{ '/french-pastry/' | relative_url }}">
+        French Pastry
+    </a>
+
+    <a href="{{ '/behind-the-scenes/' | relative_url }}">
+        Behind the Scenes
+    </a>
+
+    <a href="{{ '/about/' | relative_url }}">
+        About Fez &amp; Flavores
+    </a>
+
+    <a href="{{ '/order/' | relative_url }}" class="nav-order">
+        Order
+    </a>
+</nav>
         </div>
     </header>
 
