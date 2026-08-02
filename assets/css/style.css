@@ -1126,3 +1126,93 @@ footer a:hover {
     height: auto;
     object-fit: contain;
 }
+/* French pastry price menu */
+
+.pastry-price-menu {
+    margin: 50px 0;
+    padding: 30px;
+    color: var(--fez-white);
+    background-color: var(--fez-teal-light);
+    border-left: 5px solid var(--fez-gold);
+    border-radius: 4px;
+}
+
+.pastry-price-menu > h2 {
+    margin-top: 0;
+    color: var(--fez-gold);
+}
+
+.pastry-price-menu > p {
+    margin-bottom: 25px;
+    color: var(--fez-white);
+}
+
+.pastry-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.pastry-menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: var(--fez-white);
+    background-color: var(--fez-teal);
+}
+
+.pastry-menu-table th,
+.pastry-menu-table td {
+    padding: 15px 18px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.pastry-menu-table th {
+    color: var(--fez-blue);
+    background-color: var(--fez-gold);
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.pastry-menu-table th:last-child,
+.pastry-menu-table td:last-child {
+    width: 110px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.pastry-menu-table td:last-child {
+    color: var(--fez-gold);
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+
+.pastry-menu-table tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+.pastry-menu-table tbody tr:hover {
+    background-color: rgba(34, 179, 196, 0.18);
+}
+
+.pastry-menu-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* French pastry menu on mobile */
+
+@media (max-width: 600px) {
+    .pastry-price-menu {
+        padding: 20px 15px;
+    }
+
+    .pastry-menu-table th,
+    .pastry-menu-table td {
+        padding: 12px 10px;
+        font-size: 0.9rem;
+    }
+
+    .pastry-menu-table td:last-child {
+        font-size: 0.95rem;
+    }
+}
