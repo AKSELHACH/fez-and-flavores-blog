@@ -133,7 +133,134 @@ Our pastries combine traditional French techniques, carefully selected ingredien
   </article>
 
 </div>
+<section class="cake-collection">
 
+  <h2>Cakes &amp; Entremets</h2>
+
+  <p>
+    Discover our handcrafted cakes and French-style entremets, created
+    for birthdays, celebrations, special occasions, and elegant dessert
+    tables. Flavours, sizes, colours, and decorations can be customized.
+  </p>
+
+  <div class="product-grid">
+
+
+    <article class="product-card">
+
+      <img
+        src="{{ '/images/strawberry-coconut-vanilla-cake.jpg' | relative_url }}"
+        alt="Strawberry coconut and vanilla cake from Fez and Flavores"
+        loading="lazy">
+
+      <div class="product-information">
+
+        <span class="product-badge">Signature Cake</span>
+
+        <h2>Strawberry, Coconut &amp; Vanilla Cake</h2>
+
+        <p class="product-price">
+          Price upon request
+        </p>
+
+        <p>
+          A refined combination of fresh strawberry flavour, tropical
+          coconut, and delicate vanilla. This elegant cake offers balanced
+          sweetness, complementary textures, and a beautiful presentation.
+        </p>
+
+      </div>
+
+    </article>
+
+
+    <article class="product-card">
+
+      <img
+        src="{{ '/images/apricot-pistachio-cake.png' | relative_url }}"
+        alt="Apricot and pistachio cake from Fez and Flavores"
+        loading="lazy">
+
+      <div class="product-information">
+
+        <span class="product-badge">Elegant Creation</span>
+
+        <h2>Apricot &amp; Pistachio Cake</h2>
+
+        <p class="product-price">
+          Price upon request
+        </p>
+
+        <p>
+          A sophisticated cake combining the fruity brightness of apricot
+          with the rich and distinctive flavour of pistachio. Perfect for
+          celebrations and elegant dessert tables.
+        </p>
+
+      </div>
+
+    </article>
+
+
+    <article class="product-card">
+
+      <img
+        src="{{ '/images/black-forest-cake.jpg' | relative_url }}"
+        alt="Black Forest cake from Fez and Flavores"
+        loading="lazy">
+
+      <div class="product-information">
+
+        <span class="product-badge">Classic Favourite</span>
+
+        <h2>Black Forest Cake</h2>
+
+        <p class="product-price">
+          Price upon request
+        </p>
+
+        <p>
+          A classic celebration cake featuring chocolate sponge,
+          delicious cherry flavour, smooth cream, and an elegant chocolate
+          finish. Rich, balanced, and perfect for special occasions.
+        </p>
+
+      </div>
+
+    </article>
+
+
+    <article class="product-card">
+
+      <img
+        src="{{ '/images/custom-birthday-cake.png' | relative_url }}"
+        alt="Customized birthday cake from Fez and Flavores"
+        loading="lazy">
+
+      <div class="product-information">
+
+        <span class="product-badge">Made to Order</span>
+
+        <h2>Customized Birthday Cake</h2>
+
+        <p class="product-price">
+          Price upon request
+        </p>
+
+        <p>
+          A personalized birthday cake created according to your preferred
+          flavour, size, colours, theme, and decoration. Final pricing
+          depends on the number of servings and design complexity.
+        </p>
+
+      </div>
+
+    </article>
+
+
+  </div>
+
+</section>
 <section class="pastry-price-menu">
 
   <h2>More French Pastries</h2>
