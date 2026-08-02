@@ -11,7 +11,7 @@ Thank you for choosing **Fez & Flavores**.
 
 Our products are prepared with care using quality ingredients and are generally made to order. Advance notice helps us confirm availability and provide the best possible quality.
 
-<div class="order-guide">
+<div class="order-guide" markdown="1">
 
 ## How to Place an Order
 
