@@ -5,6 +5,7 @@ date: 2026-08-01
 description: "Discover our handcrafted Moroccan breads and pies, prepared with authentic flavours and traditional techniques."
 categories:
   - products
+menu_order: 1
 ---
 
 # Moroccan Breads and Pies
