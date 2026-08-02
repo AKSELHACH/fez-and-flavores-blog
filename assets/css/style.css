@@ -477,3 +477,327 @@ header .main-nav .nav-order:hover {
         grid-column: auto;
     }
 }
+/* =========================================
+   Fez & Flavores editorial magazine theme
+   ========================================= */
+
+:root {
+    --magazine-black: #080808;
+    --magazine-panel: #111111;
+    --magazine-white: #f7f4ee;
+    --magazine-muted: #c8c3ba;
+    --magazine-red: #c92f33;
+    --magazine-border: rgba(255, 255, 255, 0.88);
+}
+
+/* Overall page */
+
+html {
+    background-color: var(--magazine-black);
+}
+
+body {
+    color: var(--magazine-white);
+    background-color: var(--magazine-black);
+    background-image: none;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Editorial header */
+
+header {
+    color: var(--magazine-white);
+    background: var(--magazine-black);
+    border-bottom: 1px solid var(--magazine-border);
+    box-shadow: none;
+}
+
+header h1 a {
+    color: var(--magazine-white);
+    font-family: Didot, "Bodoni MT", Georgia, serif;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+header h1 a:hover {
+    color: var(--magazine-red);
+}
+
+header .tagline {
+    color: var(--magazine-red);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.78rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+}
+
+/* Magazine navigation */
+
+header .main-nav a {
+    color: var(--magazine-white);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+header .main-nav a:hover {
+    color: var(--magazine-white);
+    background-color: var(--magazine-red);
+}
+
+header .main-nav .nav-order {
+    color: var(--magazine-white);
+    background-color: var(--magazine-red);
+    border: 1px solid var(--magazine-red);
+}
+
+header .main-nav .nav-order:hover {
+    color: var(--magazine-black);
+    background-color: var(--magazine-white);
+    border-color: var(--magazine-white);
+}
+
+/* Main magazine frame */
+
+main {
+    color: var(--magazine-white);
+    background: var(--magazine-black);
+    border: 2px solid var(--magazine-white);
+    border-radius: 0;
+    box-shadow:
+        0 0 0 8px var(--magazine-black),
+        0 0 0 9px rgba(255, 255, 255, 0.35);
+}
+
+/* Editorial headings */
+
+main h1 {
+    color: var(--magazine-white);
+    font-family: Didot, "Bodoni MT", Georgia, serif;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
+
+main h2 {
+    color: var(--magazine-white);
+    font-family: Didot, "Bodoni MT", Georgia, serif;
+    font-weight: 600;
+    border-left: 4px solid var(--magazine-red);
+    padding-left: 14px;
+}
+
+main h3 {
+    color: var(--magazine-white);
+    font-family: Didot, "Bodoni MT", Georgia, serif;
+}
+
+main p,
+main li {
+    color: var(--magazine-muted);
+}
+
+main strong {
+    color: var(--magazine-white);
+}
+
+main a {
+    color: var(--magazine-red);
+}
+
+main a:hover {
+    color: var(--magazine-white);
+}
+
+/* Editorial separators */
+
+main hr {
+    height: 1px;
+    margin: 35px 0;
+    background-color: var(--magazine-border);
+    border: 0;
+}
+
+blockquote {
+    margin: 28px 0;
+    padding: 18px 22px;
+    color: var(--magazine-white);
+    background-color: var(--magazine-panel);
+    border-left: 5px solid var(--magazine-red);
+}
+
+/* Homepage post previews */
+
+.post-preview {
+    margin-bottom: 30px;
+    padding: 24px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.post-preview h2 {
+    border-left: 0;
+    padding-left: 0;
+}
+
+.post-preview h2 a {
+    color: var(--magazine-white);
+}
+
+.post-preview h2 a:hover {
+    color: var(--magazine-red);
+}
+
+.post-preview .post-meta,
+.post-meta {
+    color: var(--magazine-red);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+/* Category and article cards */
+
+.category-card,
+.product-card,
+.coming-soon,
+.order-guide,
+.order-section {
+    color: var(--magazine-white);
+    background-color: var(--magazine-panel);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.category-card {
+    border-left: 5px solid var(--magazine-red);
+}
+
+.category-card h2,
+.product-information h2,
+.order-section h2,
+.order-guide h2,
+.coming-soon h2 {
+    color: var(--magazine-white);
+}
+
+.category-card h2 a {
+    color: var(--magazine-white);
+}
+
+.category-card h2 a:hover {
+    color: var(--magazine-red);
+}
+
+.product-information p,
+.category-card p,
+.order-guide p,
+.order-guide li,
+.coming-soon p,
+.order-section p {
+    color: var(--magazine-muted);
+}
+
+/* Product images */
+
+.product-card img,
+.about-image {
+    border-radius: 0;
+    border: 1px solid var(--magazine-border);
+}
+
+/* Prices and labels */
+
+.product-price {
+    color: var(--magazine-red);
+}
+
+.product-price small {
+    color: var(--magazine-muted);
+}
+
+.product-badge {
+    color: var(--magazine-white);
+    background-color: var(--magazine-red);
+    border-radius: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.08em;
+}
+
+/* Editorial buttons */
+
+.read-more,
+.order-button,
+.cover-button {
+    color: var(--magazine-white);
+    background-color: var(--magazine-red);
+    border: 1px solid var(--magazine-red);
+    border-radius: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.read-more:hover,
+.order-button:hover,
+.cover-button:hover {
+    color: var(--magazine-black);
+    background-color: var(--magazine-white);
+    border-color: var(--magazine-white);
+}
+
+/* Footer */
+
+footer {
+    color: var(--magazine-muted);
+    background-color: var(--magazine-black);
+    border-top: 1px solid var(--magazine-border);
+}
+
+footer p {
+    color: var(--magazine-muted);
+}
+
+footer a {
+    color: var(--magazine-red);
+}
+
+footer a:hover {
+    color: var(--magazine-white);
+}
+
+/* Text selection */
+
+::selection {
+    color: var(--magazine-white);
+    background-color: var(--magazine-red);
+}
+
+/* Mobile magazine theme */
+
+@media (max-width: 760px) {
+    header .main-nav a {
+        color: var(--magazine-white);
+        background-color: var(--magazine-panel);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    header .main-nav .nav-order {
+        color: var(--magazine-white);
+        background-color: var(--magazine-red);
+    }
+
+    main {
+        border-width: 1px;
+        box-shadow: none;
+    }
+}
