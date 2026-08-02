@@ -49,7 +49,7 @@ From selecting ingredients and developing flavours to baking, decorating, and pr
 
 {% else %}
 
-<div class="coming-soon">
+<div class="coming-soon" markdown="1">
 
 ## Behind-the-Scenes Stories Are Coming Soon
 
