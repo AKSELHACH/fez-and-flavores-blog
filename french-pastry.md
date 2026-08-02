@@ -49,7 +49,7 @@ In this section, **Fez & Flavores** shares elegant pastry creations, professiona
 
 {% else %}
 
-<div class="coming-soon">
+<div class="coming-soon" markdown="1">
 
 ## French Pastry Articles Are Coming Soon
 
